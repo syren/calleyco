@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Whisker - Your personal web-page</title>
+	<meta name="application-name" content="Moustache">
+  <meta name="author" content="rhinoda.com">
+  <meta name="keywords" content="moustache, web-development, html5, css3, js, bower, jQuery, sass, compass">
+  <!-- Render -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	<link rel="shortcut icon" href="images/favicon.png" />
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+	<!-- Animate CSS -->
+  <link rel="stylesheet" href="lib/animate-css/css/animate.min.css" />
+  <!-- Font-awesome -->
+  <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css" />
+  <!-- Responsive pop-up-->
+  <link rel="stylesheet" href="lib/magnific-popup/css/magnific-popup.css" />
+  <!-- Time-line for resume -->
+  <link rel="stylesheet" href="lib/timeline/css/timeline.css" />	
+	<!-- Main styles -->
+	<link rel="stylesheet" href="css/screen.css" />
+</head>
+<body>
+  
+  <!-- Loader -->
+  <div class="loader">
+    <div class="loader_inner"></div>
+  </div>
+  <!-- end Loader --> 
+   
+  <!-- Header -->
+  <header id="home" class="main_head main_color_bg" data-parallax="scroll" data-image-src="images/sky.jpg" data-z-index="1">
+    <div class="container top-container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Logo -->
+          <div class="logo_container">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 504.8 292.3" enable-background="new 0 0 504.8 292.3" xml:space="preserve">
+<text transform="matrix(1 0 0 1 51.0006 -449.3039)"><tspan x="0" y="0" font-family="'Voyage'" font-size="72px">Calley </tspan><tspan x="0" y="68.4" font-family="'Voyage'" font-size="72px">   Nye</tspan></text>
+<text transform="matrix(1 0 0 1 7.5006 -271.8039)"><tspan x="0" y="0" font-family="'Voyage'" font-size="72px">Calley.</tspan><tspan x="131.4" y="0" font-family="'Voyage'" font-size="58px">co</tspan></text>
+<g>
+  <path fill="#CE24A2" d="M28.2,107.5C45.1,42.7,87.2,31,98.6,45c5.8,7.2,2.7,21.4-3.7,29c-5.3,6.2-13.8,7.8-17.7,2.7
+    c-4.9-6.2,0.6-14.4,6.8-13.4c9.5,1.4,16.7-9.3,11.3-16.7C87,35.3,60.9,53,45.5,108.5c-19.3,69.3,6.6,92.1,53.7,83.1
+    c72-13.6,116.6-12.1,149.9-1.7c16.9,5.3,18.7,17.3,4.9,26.7l-1.6,1.2c-23.4-25.1-90.1-31.7-155.5-18.5
+    C44.3,209.9,8,184.8,28.2,107.5z"/>
+  <path fill="#CE24A2" d="M162.3,81.8c0,0.2-0.4,2.7-4.3,6c-2.9,2.5-5.1,3.5-8.2,0.6c-4.5-4.3-11.5-7.4-19.1-6.2
+    C119.9,84,113.6,96,106,123.7c-9.3,35-1.6,50.6,4.9,42.4c3.5-4.5,7.6-15,11.3-30.6l0.8-3.3c1.4-5.1,1.9-8.4,4.9-19.7
+    c6.2-24.7,9.7-27.6,21.2-21c1.6,1,2.5,1.6,2.5,1.6c-1.4,4.7-6.2,21-15,56.8c-4.3,17.3,2.5,17.7,6.6,11.3c5.1-8,7.6-14,13.8-28.6
+    c3.1-7.2,4.5-8.4,4.5-4.9c0,1.2-1,4.5-2.7,8.8c-5.4,13.2-7.6,17.9-13.6,27.6c-9.5,15.4-25.3,14.8-25.9-7.2
+    c-2.1,5.3-4.3,9.3-6.6,12.3c-13.2,16.5-35.8-0.6-23.7-46.5c9-34.3,36.4-47.7,56.2-46.5C155.1,76.6,161.1,80.4,162.3,81.8z"/>
+  <path fill="#CE24A2" d="M169.9,77.9c6.8-27.6,7.8-36.6,7.8-36.6s0.6,0,1.4-0.2c13.2-1.9,16.9,6.2,11.1,28.2
+    c-1.2,4.1-16.3,62.9-20.8,80.6c-4.3,17.3,2.3,17.7,6.6,11.1c5.1-7.8,7.6-13.8,13.8-28.6c2.9-7,4.5-8.4,4.5-4.7c0,1.2-1,4.5-2.7,8.8
+    c-5.5,13.2-7.6,17.9-13.6,27.4c-11.7,19.1-33.5,13.8-23.4-26.7C159,119.2,165.8,94.3,169.9,77.9z"/>
+  <path fill="#CE24A2" d="M202.6,77.9c6.8-27.6,7.8-36.6,7.8-36.6s0.6,0,1.4-0.2c13.2-1.9,16.9,6.2,11.1,28.2
+    c-1.2,4.1-16.3,62.9-20.8,80.6c-4.3,17.3,2.3,17.7,6.6,11.1c5.1-7.8,7.6-13.8,13.8-28.6c2.9-7,4.5-8.4,4.5-4.7c0,1.2-1,4.5-2.7,8.8
+    c-5.4,13.2-7.6,17.9-13.6,27.4c-11.7,19.1-33.5,13.8-23.4-26.7C191.7,119.2,198.5,94.3,202.6,77.9z"/>
+  <path fill="#CE24A2" d="M243.8,136.7c23.2-13.2,28.8-38.9,23.9-49.8c-6.2-13.8-17.3-2.5-27.8,36.8c-9.7,35.2,4.3,51.2,17.7,44.8
+    c8.8-4.1,16.9-13.2,27.1-36c3.1-7,4.5-8.4,4.5-4.7c0,1-0.8,4.5-2.7,8.8c-9,19.8-16.3,31.1-30.2,37.4c-23.4,10.5-45.7-5.4-33.7-51.2
+    c12.8-48.5,51.6-54.5,60.7-37.8c8.4,15.2-12.8,41.8-39.3,56.1C240.1,143.1,240.3,138.6,243.8,136.7z"/>
+  <path fill="#CE24A2" d="M321.5,133.6c-4.1,10.5-8.8,21.4-14.2,30.4c-11.7,19.3-33.7,13.8-23.5-26.9c2.1-9,6.6-27.1,10.3-41.5
+    c6.4-25.1,13.4-23.7,20.8-19.5c1.6,0.8,2.5,1.6,2.5,1.6c-1.4,4.7-10.1,36.2-19.1,72.2c-4.1,17.3,2.7,17.7,7,11.1
+    c10.7-17.1,20.4-49,25.7-66.8l0.6-2.3c6-20.4,12.3-19.8,20.2-15.6c1.2,0.8,2.1,1.4,2.1,1.4l-5.3,19.1
+    c-3.5,12.3-16.7,64.8-21.4,82.3c8,0,16.3,1.6,24.5,4.1c16.5,5.1,20.4,15.4,7,24.7c-1,0.6-1.8,1.2-1.8,1c-9.3-9.9-21.6-14.6-33.9-16
+    c-19.9,66.6-46.7,67.5-57.6,55.9c-9.5-10.3-0.2-34.4,15.4-51c8-8.4,17.5-13.8,27.8-16.5c0.4-1.6,0.8-2.9,1.4-4.5
+    C314.8,160.4,318.3,146.4,321.5,133.6z M305.1,193.7c-9,1.6-16.5,5.1-20.8,9.3c-11.7,11.7-20.2,34.8-11.5,42.4
+    C280,251.9,288.6,246.3,305.1,193.7z"/>
+  <path fill="#CE24A2" d="M365.6,154.8c6.6,2.3,9.7,8.8,6.4,14c-3.1,5.1-11.3,7.2-17.9,4.9c-6.8-2.3-9.7-8.8-6.6-13.8
+    C350.6,154.6,358.8,152.5,365.6,154.8z"/>
+  <path fill="#CE24A2" d="M422.9,121.8c-4.2,5-11.1,6.4-14.4,2.2c-3.8-5,0.5-11.4,5.6-10.8c7.7,1.1,12.9-4.7,9.1-11
+    c-4.5-7.5-18.8,0.2-27.3,31.4c-7.8,28.7,1.4,39.2,9.1,36.1c7.1-3,14.1-10.7,22.3-29c2.7-5.6,3.6-6.7,3.6-3.8c0,0.9-0.6,3.6-2.2,7.1
+    c-7.2,16-13.6,25.4-24.9,29.9c-15.8,6.3-31.5-4.1-21.8-41.1c10-38.2,37.8-42.5,43.9-31.8C429.5,107.2,428.1,115.7,422.9,121.8z"/>
+  <path fill="#CE24A2" d="M464.2,96.7c-10.2-0.8-16.8,12.4-22.6,36.8c-6.9,29-4.9,37.5,0.9,37.2c4.9-0.3,10.7-13.9,15.8-32.4
+    c-1.9-1.7-3.8-3.8-5-6.4c-6.7-12.9-2.8-29,9.6-32c10.2-2.5,17.9,6.3,10,35.6l-0.9,3.3c2.5-0.9,5.3-2.7,8.3-5.6
+    c4.5-4.2,6-4.9,4.9-2.2c-0.3,0.8-2,3.1-4.7,5.8c-3.1,3-6.3,4.5-9.4,5c-7.5,21.6-21.2,32.6-30.3,32.9c-8.8,0.3-21.9-8.3-13.2-41.9
+    c6.7-25.4,20.1-40.4,37-38.9C469.6,94.2,466.8,97,464.2,96.7z M459.3,135c6.1-23.2,7.4-32.4,2.7-31.5c-7.4,1.6-11.6,16.5-5.8,27.1
+    C457.1,132.3,458,133.7,459.3,135z"/>
+</g>
+<g>
+  <circle fill="#8C8C8C" cx="395.3" cy="-364.2" r="109.5"/>
+  <text transform="matrix(1 0 0 1 334.5006 -379.8039)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Voyage'" font-size="72px">Calley </tspan><tspan x="0" y="68.4" fill="#FFFFFF" font-family="'Voyage'" font-size="72px">   Nye</tspan></text>
+</g>
+</svg>
+          </div>
+          <!-- end Logo -->
+          <!-- Menu -->
+          <button class="toggle_menu">
+            <span class="sandwich">
+				<span class="sw-topper"></span>
+              <span class="sw-bottom"></span>
+              <span class="sw-footer"></span>
+            </span>
+          </button>
+          <nav class="top_menu">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About me</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+           <!-- end Menu -->
+        </div>
+      </div>
+    </div>
+    <!-- Name -->
+    <div class="top_wrapper">
+		<div class="top_descr">
+			<div class="top_centered">
+				<div class="top_text">
+					<h1>Hi, I'm <span>Calley</span></h1>
+					<p>Web-designer / Front-End developer</p>
+				</div>
+			</div>
+		</div>
+		<!-- end Name -->
+	</div>
+  </header>
+  <!-- end Header -->  
+  
+  <!-- About -->
+  <section id="about" class="s_about bg_light">
+    <div class="section_header">
+  		<h2>About me</h2>
+      <div class="s_descr_wrap">
+  		  <div class="s_descr">Let me introduce myself</div>
+  		</div>
+    </div>
+		<div class="section_content">
+  		<div class="container">
+  		  <div class="row">
+  		  	<div class="col-md-4 col-md-push-4 animation"> 
+    		  	<div class="personal">
+              <a href="images/personal.png" class="popup"><img src="images/personal.png" alt="Personal photo" /></a>
+    		  	</div>
+  		  	</div>
+  		  	<div class="col-md-4 col-md-pull-4">
+    		  	<h3>Few words about me</h3>
+    		  	<p>I'm a passionate product developer and designer with ten years experience working in all facets of the web and mobile experience.</p>
+
+              <p>I believe in acting quickly and failing early. I believe that there's no such thing as a right answer and believing that there is, means closing yourself and product off to incredible possibilities. I believe that done is better than perfect. I believe in measuring everything and constantly adapting and learning.</p>
+  		  	</div>
+  		  	<div class="col-md-4">
+    		  	<h3>Specialized in</h3>
+    		  	<div class="panel-group" id="specialized">
+              <div class="panel panel-default">
+      					<div class="panel-heading">
+      						<div  class="panel-title">
+        						<a href="#spec-1" data-toggle="collapse" data-parent="#specialized">UI / Digital Design</a>
+      						</div>
+      					</div>
+      					<div class="panel-collapse collapse in" id="spec-1">
+      						<div class="panel-body">
+      							<p>I like making things pretty. I tend towards clean and simple, with few graphical elements. </p>
+      						</div> <!-- end panel-body -->
+      					</div> <!-- end collapse -->
+      				</div> <!-- end panel -->
+      				<div class="panel panel-default">
+      					<div class="panel-heading">
+      						<div class="panel-title">
+        						<a href="#spec-2" data-toggle="collapse" data-parent="#specialized">UX Design</a>
+      						</div>
+      					</div>
+      					<div class="panel-collapse collapse" id="spec-2">
+      						<div class="panel-body">
+      							<p>UX is not a step in the process, it is the process. UX should be hardcoded into everything you do, from design to development. </p>
+      						</div> <!-- end panel-body -->
+      					</div> <!-- end collapse -->
+      				</div> <!-- end panel -->
+      				<div class="panel panel-default">
+      					<div class="panel-heading">
+      						<div class="panel-title">
+        						<a href="#spec-3" data-toggle="collapse" data-parent="#specialized">UI Development</a>
+      						</div>
+      					</div>
+      					<div class="panel-collapse collapse" id="spec-3">
+      						<div class="panel-body">
+      							<p>So you have a gorgeous Sketch file and outstanding flows. Invest in the future of your app now, and architect the frontend to be as scalable and reusable as possible.</p>
+      						</div> <!-- end panel-body -->
+      					</div> <!-- end collapse -->
+      				</div> <!-- end panel -->
+      			</div> <!-- end panel-group -->
+  		  	</div>	<!-- end col-md-4 -->
+  		  </div> <!-- end row -->
+  		</div> <!-- end container -->
+		</div> <!-- end section_content -->
+  </section>
+  <!-- end About -->
+  
+  <!-- Resume -->
+  <section id="resume" class="s_resume">
+    <div class="section_header">
+  		<h2>Resume</h2>
+      <div class="s_descr_wrap">
+  		  <div class="s_descr">My personal gains</div>
+  		</div>
+    </div>
+    <div class="section_content">
+  		<div class="container">
+  		  <div class="row">
+    		  <div class="col-md-12">
+      		   <div id="my-timeline"></div>
+    		  </div>
+  		  </div>
+  		</div>
+		</div>
+  </section>
+  <!-- end Resume -->
+  
+  <!-- Portfolio -->
+  <section id="portfolio" class="s_portfolio bg_dark">
+    <div class="section_header">
+  		<h2>Portfolio</h2>
+      <div class="s_descr_wrap">
+  		  <div class="s_descr">My recent works</div>
+  		</div>
+    </div>
+    <!-- section_content -->
+    <div class="section_content">
+      <!-- container -->
+  		<div class="container">
+    		<!-- row -->
+  		  <div class="row">
+    		  <!-- filter_div controls -->
+    		  <div class="filter_div controls">
+      		  <ul>
+        		  <li class="filter active" data-filter="all">All works</li>
+        		  <li class="filter" data-filter=".category_1">Web - development</li>
+        		  <li class="filter" data-filter=".category_2">Design</li>
+        		  <li class="filter" data-filter=".category_3">UI</li>
+        		  <li class="filter" data-filter=".category_4">Infographics</li>
+      		  </ul>
+      		  <!-- portfolio_grid -->
+            <div class="portfolio_grid">
+    		  		<div class="mix col-md-3 col-xs-6 portfolio_item category_1">
+      		  		<div class="image-wrapper">
+      		        <img src="images/portfolio-images/1.jpg" alt="Development" />
+        		      <div class="mask">
+                      <h3>Title</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>  
+                      <a href="#" class="pop-up_content">More info</a> 
+                  </div>
+                  <!-- pop-up -->
+                  <div class="hidden">
+                    <div class="pop-up">
+                      <div class="pop-up_wrapper">
+                        <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, fugiat, neque, ipsum fuga modi quibusdam nemo quos laboriosam molestiae aspernatur voluptas iste. Voluptates, deleniti repellendus debitis harum repudiandae voluptate aliquid!</p>
+                        <img src="images/portfolio-images/1.jpg" alt="Web-development" />
+								      </div>
+							      </div>
+                  </div>
+                  <!-- end pop-up -->
+                </div>                              
+    		  		</div>                              
+    		  		<div class="mix col-md-3 col-xs-6 category_1">
+      		  		<div class="image-wrapper">
+      		        <img src="images/portfolio-images/2.jpg" alt="Web-development" />
+        		      <div class="mask">
+                      <h3>Title</h3>  
+                      <p>Lorem ipsum dolor sit amet.</p>    
+                      <a href="#" class="pop-up_content">More info</a> 
+                  </div>
+                  <!-- pop-up -->
+                  <div class="hidden">
+                    <div class="pop-up">
+                      <div class="pop-up_wrapper">
+                        <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, fugiat, neque, ipsum fuga modi quibusdam nemo quos laboriosam molestiae aspernatur voluptas iste. Voluptates, deleniti repellendus debitis harum repudiandae voluptate aliquid!</p>
+                        <img src="images/portfolio-images/2.jpg" alt="Web-development" />
+								      </div>
+							      </div>
+                  </div>
+                  <!-- end pop-up -->
+                </div>                              
+    		  		</div>                              
+    		  		<div class="mix col-md-3 col-xs-6 category_1">
+      		  		<div class="image-wrapper">
+      		        <img src="images/portfolio-images/3.jpg" alt="Web-development" />
+        		      <div class="mask">
+                      <h3>Title</h3>  
+                      <p>Lorem ipsum dolor sit amet.</p>   
+                      <a href="#" class="pop-up_content">More info</a>  
+                  </div>
+                  <!-- pop-up -->
+                  <div class="hidden">
+                    <div class="pop-up">
+                      <div class="pop-up_wrapper">
+                        <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, fugiat, neque, ipsum fuga modi quibusdam nemo quos laboriosam molestiae aspernatur voluptas iste. Voluptates, deleniti repellendus debitis harum repudiandae voluptate aliquid!</p>
+                        <img src="images/portfolio-images/3.jpg" alt="Web-development" />
+								      </div>
+							      </div>
+                  </div>
+                  <!-- end pop-up -->
+                </div>                               
+    		  		</div>                              
+    		  		<div class="mix col-md-3 col-xs-6 category_1">
+      		  		<div class="image-wrapper">
+      		       <img src="images/portfolio-images/4.jpg" alt="Web-development" />
+        		      <div class="mask">
+                      <h3>Title</h3>  
+                      <p>Lorem ipsum dolor sit amet.</p>  
+                      <a href="#" class="pop-up_content">More info</a>  
+                  </div>
+                  <!-- pop-up -->
+                  <div class="hidden">
+                    <div class="pop-up">
+                      <div class="pop-up_wrapper">
+                        <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, fugiat, neque, ipsum fuga modi quibusdam nemo quos laboriosam molestiae aspernatur voluptas iste. Voluptates, deleniti repellendus debitis harum repudiandae voluptate aliquid!</p>
+                        <img src="images/portfolio-images/4.jpg" alt="Web-development" />
+								      </div>
+							      </div>
+                  </div>
+                  <!-- end pop-up -->
+                </div>                         
+    		  		</div>                            
+    		  		<div class="mix col-md-3 col-xs-6 category_2"> 
+      		  		<div class="image-wrapper">
+      		        <img src="images/portfolio-images/5.jpg" alt="Design" />
+        		      <div class="mask">
+                      <h3>Title</h3>  
+                      <p>Lorem ipsum dolor sit amet.</p>  
+                      <a href="#" class="pop-up_content">More info</a> 
+                  </div>
+                  <!-- pop-up -->
+                  <div class="hidden">
+                    <div class="pop-up">
+                      <div class="pop-up_wrapper">
+                        <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, fugiat, neque, ipsum fuga modi quibusdam nemo quos laboriosam molestiae aspernatur voluptas iste. Voluptates, deleniti repellendus debitis harum repudiandae voluptate aliquid!</p>
+                        <img src="images/portfolio-images/5.jpg" alt="Design" />
+								      </div>
+							      </div>
+                  </div>
+                  <!-- end pop-up -->
+                </div>                                   
+    		  		</div>                              
+    		  		<div class="mix col-md-3 col-xs-6 category_2"> 
+      		  		<div class="image-wrapper">
+      		        <img src="images/portfolio-images/6.jpg" alt="Design" />
+        		      <div class="mask">
+                      <h3>Title</h3>  
+                      <p>Lorem ipsum dolor sit amet.</p>   
+                      <a href="#" class="pop-up_content">More info</a>  
+                  </div>
+                  <!-- pop-up -->
+                  <div class="hidden">
+                    <div class="pop-up">
+                      <div class="pop-up_wrapper">
+                        <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, fugiat, neque, ipsum fuga modi quibusdam nemo quos laboriosam molestiae aspernatur voluptas iste. Voluptates, deleniti repellendus debitis harum repudiandae voluptate aliquid!</p>
+                        <img src="images/portfolio-images/6.jpg" alt="Design" />
+								      </div>
+							      </div>
+                  </div>
+                  <!-- end pop-up -->
+                </div>                                 
+    		  		</div>                              
+    		  		<div class="mix col-md-3 col-xs-6 category_2"> 
+      		  		<div class="image-wrapper">
+      		       	<img src="images/portfolio-images/7.jpg" alt="Design" />
+        		      <div class="mask">
+                      <h3>Title</h3>  
+                      <p>Lorem ipsum dolor sit amet.</p>  
+                      <a href="#" class="pop-up_content">More info</a>  
+                  </div>
+                  <!-- pop-up -->
+                  <div class="hidden">
+                    <div class="pop-up">
+                      <div class="pop-up_wrapper">
+                        <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, fugiat, neque, ipsum fuga modi quibusdam nemo quos laboriosam molestiae aspernatur voluptas iste. Voluptates, deleniti repellendus debitis harum repudiandae voluptate aliquid!</p>
+                        <img src="images/portfolio-images/7.jpg" alt="Design" />
+								      </div>
+							      </div>
+                  </div>
+                  <!-- end pop-up -->
+                </div>                                   
+    		  		</div>                              
+    		  		<div class="mix col-md-3 col-xs-6 category_2"> 
+      		  		<div class="image-wrapper">
+                  <img src="images/portfolio-images/8.jpg" alt="Design" />
+        		      <div class="mask">
+                      <h3>Title</h3>  
+                      <p>Lorem ipsum dolor sit amet.</p>    
+                      <a href="#" class="pop-up_content">More info</a>  
+                  </div>
+                  <!-- pop-up -->
+                  <div class="hidden">
+                    <div class="pop-up">
+                      <div class="pop-up_wrapper">
+                        <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, fugiat, neque, ipsum fuga modi quibusdam nemo quos laboriosam molestiae aspernatur voluptas iste. Voluptates, deleniti repellendus debitis harum repudiandae voluptate aliquid!</p>
+                        <img src="images/portfolio-images/8.jpg" alt="Design" />
+								      </div>
+							      </div>
+                  </div>
+                  <!-- end pop-up -->
+                </div>   
+    		  		</div>
+    		  		<div class="mix col-md-3 col-xs-6 category_3"> 
+      		  		<div class="image-wrapper">
+      		        <img src="images/portfolio-images/9.jpg" alt="UI" />
+        		      <div class="mask">
+                      <h3>Title</h3>  
+                      <p>Lorem ipsum dolor sit amet.</p> 
+                      <a href="#" class="pop-up_content">More info</a>  
+                  </div>
+                  <!-- pop-up -->
+                  <div class="hidden">
+                    <div class="pop-up">
+                      <div class="pop-up_wrapper">
+                        <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, fugiat, neque, ipsum fuga modi quibusdam nemo quos laboriosam molestiae aspernatur voluptas iste. Voluptates, deleniti repellendus debitis harum repudiandae voluptate aliquid!</p>
+                        <img src="images/portfolio-images/9.jpg" alt="UI" />
+								      </div>
+							      </div>
+                  </div>
+                  <!-- end pop-up -->
+                </div>   
+    		  		</div>
+    		  		<div class="mix col-md-3 col-xs-6 category_3"> 
+      		  		<div class="image-wrapper">
+      		        <img src="images/portfolio-images/10.jpg" alt="UI" />
+        		      <div class="mask">
+                      <h3>Title</h3>  
+                      <p>Lorem ipsum dolor sit amet.</p>    
+                      <a href="#" class="pop-up_content">More info</a>   
+                  </div>
+                  <!-- pop-up -->
+                  <div class="hidden">
+                    <div class="pop-up">
+                      <div class="pop-up_wrapper">
+                        <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, fugiat, neque, ipsum fuga modi quibusdam nemo quos laboriosam molestiae aspernatur voluptas iste. Voluptates, deleniti repellendus debitis harum repudiandae voluptate aliquid!</p>
+                        <img src="images/portfolio-images/10.jpg" alt="UI" />
+								      </div>
+							      </div>
+                  </div>
+                  <!-- end pop-up -->
+                </div>  
+    		  		</div>
+    		  		<div class="mix col-md-3 col-xs-6 category_4"> 
+      		  		<div class="image-wrapper">
+      		  		  <img src="images/portfolio-images/11.jpg" alt="Infographics" />
+        		      <div class="mask">
+                      <h3>Title</h3>  
+                      <p>Lorem ipsum dolor sit amet.</p>    
+                      <a href="#" class="pop-up_content">More info</a>  
+                  </div>
+                  <!-- pop-up -->
+                  <div class="hidden">
+                    <div class="pop-up">
+                      <div class="pop-up_wrapper">
+                        <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, fugiat, neque, ipsum fuga modi quibusdam nemo quos laboriosam molestiae aspernatur voluptas iste. Voluptates, deleniti repellendus debitis harum repudiandae voluptate aliquid!</p>
+                        <img src="images/portfolio-images/11.jpg" alt="Infographics" />
+								      </div>
+							      </div>
+                  </div>
+                  <!-- end pop-up -->
+                </div>   
+    		  		</div>
+    		  		<div class="mix col-md-3 col-xs-6 category_4"> 
+      		  		<div class="image-wrapper">
+      		  		  <img src="images/portfolio-images/12.jpg" alt="Infographics" />
+        		      <div class="mask">
+                      <h3>Title</h3>  
+                      <p>Lorem ipsum dolor sit amet.</p>    
+                      <a href="#" class="pop-up_content">More info</a> 
+                  </div>
+                  <!-- pop-up -->
+                  <div class="hidden">
+                    <div class="pop-up">
+                      <div class="pop-up_wrapper">
+                        <button class="mfp-close" type="button" title="Close (Esc)">×</button>
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, fugiat, neque, ipsum fuga modi quibusdam nemo quos laboriosam molestiae aspernatur voluptas iste. Voluptates, deleniti repellendus debitis harum repudiandae voluptate aliquid!</p>
+                         <img src="images/portfolio-images/12.jpg" alt="Infographics" />
+								      </div>
+							      </div>
+                  </div>
+                  <!-- end pop-up -->
+                </div>   
+    		  		</div>
+      		  </div>
+      		  <!-- end portfolio_grid -->
+    		  </div>
+    		  <!-- end filter_div controls -->
+  		  </div>
+  		  <!-- end row -->
+  		</div>
+  		<!-- end container -->
+		</div>
+		<!-- end section_content -->  
+  </section>
+  <!-- end Portfolio -->
+  
+  <!-- Contact -->
+  <section id="contact" class="s_contact">
+    <div class="section_header">
+  		<h2>Contact</h2>
+      <div class="s_descr_wrap">
+  		  <div class="s_descr">Leave your message</div>
+  		</div>
+    </div>
+	  <div class="section_content">
+  		<div class="container">
+  		  <div class="row">
+  		    <div class="col-sm-offset-2 col-sm-8 col-sm-offset-2">
+					  <form action="" class="main_form error" novalidate target="_blank">
+  						<label class="form-group">
+  							<span class="fa fa-asterisk"></span>
+  							<input type="text" name="name" placeholder="Your name here" data-validation-required-message="Please, enter Your name" required />
+  							<span class="help-block text-danger"></span>
+  						</label>
+  						<label class="form-group">
+  							<span class="fa fa-asterisk"></span>
+  							<input type="email" name="email" placeholder="Your E-mail here" data-validation-required-message="Your E-mail isn't correct" required />
+  							<span class="help-block text-danger"></span>
+  						</label>
+  						<label class="form-group">
+  							<span class="fa fa-asterisk"></span>
+  							<textarea name="message" placeholder="Your message here" data-validation-required-message="Please, type Your message" required></textarea>
+  							<span class="help-block text-danger"></span>
+  						</label>
+              <button>Send</button>
+					  </form>
+  		    </div>
+				</div>
+  		</div>
+		</div>
+  </section>
+  <!-- end Contact -->
+  
+  <!-- Footer -->
+  <footer class="main_footer bg_dark">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="copyright">
+          &copy; 2015 Whisker. Made with <span class="fa fa-heart heart"></span> in Russia.
+        </div>
+        <div class="social_wrap">
+					<ul>
+						<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-github"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-behance"></i></a></li>
+					</ul>
+				</div>
+      </div>
+    </div>
+  </footer>
+  <!-- end Footer -->
+  
+  <!-- some scripts for IE -->
+	<!--[if lt IE 9]>
+  	<script src="lib/es5-shim/js/es5-shim.min.js"></script>
+  	<script src="lib/html5shiv/js/html5shiv.min.js"></script>
+  	<script src="lib/html5shiv/js/html5shiv-printshiv.min.js"></script>
+  	<script src="lib/js/respond.min.js"></script>
+	<![endif]-->
+	
+	<!-- jQuery -->
+	<script src="lib/jquery/js/jquery.min.js"></script>
+	<!-- Parallax plugin -->
+  <script src="lib/parallax/js/parallax.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <!-- Pop-up plugin -->
+  <script src="lib/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+  <!-- A filter and sort plugin for images-->
+  <script src="lib/mixitup2/js/jquery.mixitup.min.js"></script>
+  <!-- Navigation plugin -->
+  <script src="lib/pageScroll2id/js/pageScroll2id.min.js"></script>
+  <!-- Trigger for scroll -->
+  <script src="lib/waypoints/js/waypoints.min.js"></script>
+  <!-- Validation for form -->
+  <script src="lib/jqBootstrapValidation/js/jqBootstrapValidation.js"></script>
+  <!-- Time-line for resume -->
+  <script src="lib/timeline/js/timeline-min.js"></script>
+  <script>
+    // script for initializing data
+    $(document).ready(function() {
+      createStoryJS({
+        type:       'timeline',
+        width:      '',
+        height:     '600',
+        source:     'lib/timeline/timeline.jsonp',
+        embed_id:   'my-timeline',
+        font: 'Raleway'
+      });
+    });
+  </script>
+  <!--This script just must be here --> 
+  <script src="lib/timeline/js/storyjs-embed.js"></script>
+  <!-- Some main scripts -->
+  <script src="js/min/animate-css.min.js"></script>
+	<script src="js/min/common.min.js"></script>
+</body>
+</html>

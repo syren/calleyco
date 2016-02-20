@@ -1,0 +1,145 @@
+storyjs_jsonp_data = {
+    "timeline":
+    {
+        "date": [
+            {    
+                "startDate":"2003,1,10",        
+                "endDate":"2007,9,10",
+                "headline":"University years",
+                "text":"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>",
+                "asset":
+                {
+                    "media":"images/resume-images/oxford.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2006,1,10",
+                "endDate":"2007,7,15",
+                "headline":"Design Academy",
+                "text":"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>",
+                "asset":
+                {
+                    "media":"images/resume-images/designacademy.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+      {
+                "startDate":"2007,10,26",
+                "headline":"Some IT courses",
+                "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                "asset":
+                {
+                    "media":"images/resume-images/treehouse.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+      {
+                "startDate":"2008,3,24",
+                "endDate":"2010,4,19",
+                "headline":"Started to work in Google Inc.",
+                "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                "asset":
+                {
+                    "media":"images/resume-images/googledev.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+      {
+                "startDate":"2010,1,4",
+                "headline":"Create my own design project",
+                "text":"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>",
+                "asset":
+                {
+                    "media":"images/resume-images/owndesign.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+      {
+                "startDate":"2010,1,4",
+                "headline":"Enjoy my first surf-riding",
+                "text":"",
+                "asset":
+                {
+                    "media":"images/resume-images/surfing.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+
+      {
+                "startDate":"2010,5,12",
+                "endDate":"2010,4,19",
+                "headline":"Some design and web-development works",
+                "text":"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>",
+                "asset":
+                {
+                    "media":"images/resume-images/designandweb.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+      {
+                "startDate":"2011,12,25",
+                "headline":"Best template in themeforest.net",
+                "text":"",
+                "asset":
+                {
+                    "media":"images/resume-images/themeforest.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+      {
+                "startDate":"2011,12,26",
+                "endDate":"2013,4,19",
+                "headline":"Work in X web-development studio",
+                "text":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },    
+      {
+                "startDate":"2013,5,4",
+                "headline":"Create my own site",
+                "text":"",
+                "asset":
+                {
+                    "media":"images/resume-images/ownsite.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+      {
+                "startDate":"2013,7,15",
+                "headline":"Start working as freelancer",
+                "text":"",
+                "asset":
+                {
+                    "media":"images/resume-images/freelance.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+      {
+                "startDate":"2014,4,18",
+                "headline":"Founded my own disign & web-development studio",
+                "text":"",
+                "asset":
+                {
+                    "media":"images/resume-images/ownstudio.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            }
+        ]
+    }
+}
